@@ -1,0 +1,96 @@
+/* set website typeface and alternate */
+body {
+    font-family: Avenir, sans-serif;
+    margin:10px 0 0 0;
+}
+
+/* remove bullets from list and floating on the right */
+nav ul li{
+    list-style-type: none;
+    float:right;
+}
+
+/* set logo image float on the left
+add box-shadow from https://css-tricks.com/almanac/properties/b/box-shadow */
+.logo {
+    float:left;
+    margin-left:0;
+    padding-left:0;
+    border-radius:20px;
+    border-left:0;
+    -webkit-box-shadow: 1px 1px 3px darkgreen;
+    -moz-box-shadow: 1px 1px 3px darkgreen;
+    box-shadow: 1px 1px 3px darkgreen;
+}
+
+/* format link menu */
+.pagelinks {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+/* format link menu with transition from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417 */
+.pagelinks a {
+    display:block;
+    text-decoration:none;
+    color:#6f6f6f;
+    font-weight: 800;
+    font-size:1.05em;
+    padding:5px 25px;
+    -webkit-transition: width .1s, height .1s, -webkit-transform 1s; /* Safari compatibility */
+    transition: width 1s, height 1s, transform 1s;
+}
+
+/* format link menu on hover from https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417 */
+.pagelinks a:hover {
+    color:white;
+    background-color:darkgreen;
+    -webkit-transform: rotate(360deg); /* Safari compatibility */
+    transform: rotate(360deg);
+}
+
+/* format text logo */
+.text_logo {
+    font-size:3em;
+    color:darkgreen;
+    padding-bottom:0;
+    text-align:center;
+    margin:0;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.33);
+}
+
+/* set image background and align */
+.home_image_container {
+    background-color:black;
+    text-align:center;
+    margin-top:0;
+    padding-top:0;
+}
+
+/* format home image */
+.home_image {
+    width:50%;
+    height:auto;
+}
+
+.quote {text-align:center;}
+
+.video {text-align:center}
+
+/* format page footer */
+footer {
+    font-size:0.75em;
+    color:white;
+    background-color:darkgreen;
+}
+
+p.footer {text-align:left;}
+
+/*responsive navbar and footer under 800px and on smaller screens through media query
+from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+@media screen and (max-width:800px) {
+    nav, footer {
+        position:static;
+        display:none;
+    }
+}

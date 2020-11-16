@@ -1,0 +1,58 @@
+/* style font color and padding */
+div {
+    padding:20px;
+    color:white;
+}
+
+/* format page heading */
+h3 {
+    text-transform:uppercase;
+    text-align:center;
+    font-size:2em;
+}
+
+/* format list */
+li {
+    font-size:1.1em;
+    line-height:2em;
+    list-style-type:circle;
+}
+
+/* format last part */
+section p {
+    font-size:1.2em;
+    line-height:1.5em;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+/* set background image for mission */
+.div_mission {
+    background-color:#262626;
+    background-image:url(http://www.wildtextures.com/wp-content/uploads/2012/01/wildtextures-creased-black-paper-texture.jpg);
+    background-size:100%;
+}
+
+/* set background image for vision */
+.div_vision {
+    background-color:#3965de;
+    background-image:url(https://www.photohdx.com/images/2017/04/dark-blue-abstract-leather-texture.jpg);
+    background-size:100%;
+}
+
+/* set background image for last part */
+.div_who {
+    color:black;
+    background-color:#ff7600;
+    background-image:url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?cs=srgb&dl=pattern-texture-wall-1020320.jpg&fm=jpg);
+    background-size:100%;
+}
+
+/* set hover properties for the previous 3 sub-sections */
+div:hover {
+    opacity:0.8;
+    font-weight: 600;
+}
+

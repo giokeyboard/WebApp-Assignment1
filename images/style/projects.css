@@ -1,0 +1,50 @@
+/* format projects header */
+header {
+    text-align:center;
+    font-size:1.5em;
+    color:green;
+    margin-top:0;
+    padding-top:0;
+}
+
+/* format table */
+table {
+    margin:auto;
+    width: 95%;
+    text-align:center;
+    border-collapse:collapse;
+}
+
+/* format table cells */
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+/* format table headers */
+th {
+    background:darkgreen;
+    color:white;
+    font-size:1.5em;
+}
+
+/* set alternate table row color */
+tr:nth-child(even){background-color: rgba(198, 198, 198, 0.51)}
+tr:nth-child(odd){background-color: rgba(207, 255, 199, 0.51)}
+
+/* format first column */
+.area {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/* format first column */
+.area img {
+    border: 2.5px solid rgb(95, 95, 95);
+    border-radius: 10px;
+}
+
+/* align details */
+.description {
+    text-align:left;
+}
